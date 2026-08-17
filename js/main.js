@@ -5,7 +5,7 @@
   const hintExtra = document.getElementById('hint-extra');
   const label = document.getElementById('label');
 
-  const SIMS = [OrbitSim, WaterSim, BallsSim];
+  const SIMS = [OrbitSim, WaterSim, BallsSim, BarsWaveSim, AlchemySim, BatterySim];
 
   let W, H, DPR;
   let sim, paused = false;
